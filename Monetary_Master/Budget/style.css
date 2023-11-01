@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+}
+
+body {
+    padding-top: 20px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #82a7d6, #5c8bd6);
+    color: #333;
+}
+
+.headerBar {
+    background-color: #2a5d99;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.topbar {
+    margin-bottom: 10px;
+}
+
+.currency, .balance {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.content {
+    width: 80%;
+    max-width: 580px;
+    margin: 1% auto;
+    padding: 3%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.secondTitle {
+    background-color: #2a5d99;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.form {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 15px;
+}
+
+.formLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 01px;
+}
+
+thead {
+    background-color: #2a5d99;
+    color: white;
+}
+
+tbody {
+    background-color: #e6e6e6;
+}
+
+thead th, tbody td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    color: #fff;
+    background-color: #2a5d99;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+button:hover {
+    box-shadow: 0 0 0 2px grey;
+}
+
+a {
+    text-decoration: underline;
+    color: #2a5d99;
+}
+
+
+
+
+
+
+header .navbar {
+
+    margin-top: 20px;
+    width: 100%;
+    padding: 30px 50px 15px 50px; /* Increased top padding */
+    background-color: rgba(255, 255, 255, 0.9); /* Subtle background color */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar .menu li {
+    list-style: none;
+    margin: 0 15px; /* Adjusted margin for better spacing */
+    transition: all 0.3s ease; /* Transition effect for hover */
+}
+
+.navbar .menu a {
+    color: #333; /* Darker text color for contrast */
+    text-decoration: none;
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: 600; /* Bolder font weight */
+    padding: 5px 10px; /* Padding around the links for a larger clickable area */
+    border-radius: 5px; /* Rounded edges for the hover background */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.navbar .menu a:hover {
+    color: #f2f2f2; 
+    background-color: #333; /* Background color on hover for better feedback */
+}
+
+
+.navbar .buttons input {
+    outline: none;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 8px 17px;
+    border: none;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-image: linear-gradient( 135deg, #ff9a9e 10%, #F6416C 100%);
+}
+
+.navbar .buttons input:hover {
+    transform: scale(0.97);
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}

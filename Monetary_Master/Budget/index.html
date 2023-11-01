@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+    <!-- Navbar integration starts here -->
+    <nav class="navbar">
+
+      <ul class="menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="Content.html">Learn More</a></li>
+        <li><a href="quiz/index.html">Quiz's</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Navbar integration ends here -->
+
+    <div class="headerBar">
+        <header>
+          <h2 class="title">My Budget Tracker</h2>
+          <h3 class="topbar">Your Current Balance</h3>
+          <p>
+            <span class="currency">$</span>
+            <span class="balance"></span>
+          </p>
+          <header>
+      </div>
+      
+      <div class="content">
+        <h3 class="secondTitle">Add a new transaction: </h3>
+        <div class="form">
+          <form id="expForm">
+            <div class="formLine left">
+              <span for="type">Type:</span>
+              <select id="type">
+                <option value="chooseOne">Choose one...</option>
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+              </select>
+            </div>
+            <div class="formLine right">
+              <span for="name">Name:</span>
+              <input type="text" id="name">
+            </div>
+    
+            <div class="formLine right">
+              <span for="amount">Amount:</span>
+              <input type="text" id="amount">
+            </div>
+            <button type="submit" class="buttonSave">Add to transactions</button>
+          </form>
+        </div>
+      </div>
+      <div class="content">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Name</th>
+              <th>Amount</th>
+              <th>Options</th>
+            </tr>
+          </thead>
+          <tbody id="transactionTable"></tbody>
+        </table>
+      </div>
+  <script src="script.js"></script>
+</body>
+</html>
